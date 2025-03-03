@@ -1,0 +1,27 @@
+{
+  "name": "secureerc20-token",
+  "version": "1.0.0",
+  "description": "A secure ERC-20 token with security features including pausing, ownership, and reentrancy guard. By William Mwaisoloka,",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weezyjs/SecureERC20-Token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weezyjs/SecureERC20-Token/issues"
+  },
+  "homepage": "https://github.com/weezyjs/SecureERC20-Token#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19"
+  }
+}
