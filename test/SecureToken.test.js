@@ -10,13 +10,12 @@ describe("SecureToken", function () {
     });
 
     beforeEach(async function () {
-        secureToken = await Token.deploy(ethers.parseEther("1000"));
-        await secureToken.deployed();
+        secureToken = await Token.deploy(ethers.parseEther("1000")); // ✅ FIXED
+        await secureToken.waitForDeployment(); // ✅ FIXED
     });
 
     it("Should assign the initial supply to the owner", async function () {
         const ownerBalance = await secureToken.balanceOf(owner.address);
-        expect(ownerBalance).to.equal(ethers.parseEther("1000")); 
+        expect(ownerBalance).to.equal(ethers.parseEther("1000")); // ✅ FIXED
     });
 });
-
