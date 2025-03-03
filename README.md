@@ -21,10 +21,11 @@
 
 ## 🛠️ **Installation & Setup**
 ### **1️⃣ Clone the Repository**
-
+```bash
 git clone https://github.com/weezyjs/SecureERC20-Token.git
-cd SecureERC20-Token
 
+cd SecureERC20-Token
+```
 2️⃣ Install Dependencies
 ```bash
 npm install
